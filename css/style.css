@@ -66,6 +66,11 @@ body {
   font-weight: normal;
   color: #222222; }
 
+  html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Heebo", sans-serif;
   font-weight: bold; }
@@ -343,9 +348,9 @@ button:focus {
     min-height: 780px;
     z-index: 1; }
     .blog_banner .banner_inner .overlay {
-      background: url(../img/image3.jpg) no-repeat scroll center center;
+      background: url(../img/banner/Untitled\ design.jpg) no-repeat scroll center center;
       opacity: .5;
-      height: 125%;
+      height: 100%;
       position: absolute;
       left: 0px;
       top: 0px;
